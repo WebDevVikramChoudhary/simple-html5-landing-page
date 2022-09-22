@@ -1,0 +1,153 @@
+header:after,
+nav:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Josefin Sans", sans-serif;
+  color: #272727;
+  background-color: #c3ff99;
+}
+
+header,
+article,
+section,
+nav {
+  display: block;
+}
+
+img {
+  border-radius: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: #d24655;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+a:focus {
+  color: #000;
+}
+
+a img {
+  border: none;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0;
+  color: #000;
+  font-weight: normal;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 0 0 24px;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0 0 24px;
+  line-height: 1;
+}
+
+p {
+  font-family: "Vollkorn", serif;
+  margin-bottom: 24px;
+}
+
+header {
+  margin: 20px 40px 60px;
+}
+
+header div {
+  margin-top: 40px;
+  width: 60%;
+  float: left;
+}
+
+header p {
+  color: #272727;
+  font-size: 18px;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+nav {
+  float: right;
+  width: 40%;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  float: left;
+  list-style: none;
+  padding: 4px 0;
+}
+
+nav a {
+  color: #565656;
+  display: block;
+  font-size: 12px;
+  margin: 5px 2px;
+  padding: 10px 10px 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-right: 1px dashed rgba(0, 0, 0, 0.3);
+}
+
+nav li:last-child a {
+  border-right: none;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: none;
+  background-color: #f0f0f0;
+  border-color: transparent;
+}
+
+.page-wrap {
+  max-width: 960px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.module-block {
+  background-color: #fff;
+  margin: 0 0 70px 0;
+  padding: 40px;
+  box-shadow: inset 0px 0px 13px rgba(68, 68, 68, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.module-block h2 {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+}
